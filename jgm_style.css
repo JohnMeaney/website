@@ -1,0 +1,240 @@
+body {
+	color: 					#404040;
+  	font-size:           	12pt;
+  	font-family:         	century gothic, verdana, tahoma, arial, sans-serif;
+  	background: 			linear-gradient(to right, #F8F8F8,  #D8D8D8);
+
+}
+
+h1 {
+  	color:               	#040406;
+  	font-size:           	200%;
+  	text-shadow: 			3px 3px 3px  #585858;
+}
+
+
+
+
+h2 {
+  	font-size:           	130%;
+}
+
+h3 {
+	color:               	#383838;
+}
+
+
+
+#allcontent {
+	max-width:				800px;
+	margin-left:			auto;
+	margin-right:			auto;
+}
+
+#header {
+	background-image:		url(images/skyline02.jpg);
+	height:					240px;
+	border-width:			thin;
+	border-style:			solid;
+	border-color:			#ffcc00;
+	border-radius:			6px;
+	text-align:				center;
+	box-shadow: 			3px 3px 3px #888888;
+}
+
+#header h1 {
+  	color:               	#FFDB4D;
+  	font-size:           	200%;
+  	text-shadow: 			5px 5px 5px #FF9900;
+
+}
+
+#button_panel {
+	text-align:				center;
+}
+
+#button_panel li{
+	color:					white;
+	background: 			linear-gradient(to bottom, #FFFF9D, #FFCC00);
+	margin:					10px;
+	border-radius:			6px;	
+	font-weight:			bold;
+	font-size:				85%;
+	text-decoration:		none;
+	text-align:				center;
+	padding-bottom:			5px;
+	padding-left:			25px;
+	padding-right:			25px;
+	list-style-type:		none;
+	display:				inline-block;
+}
+
+
+
+#booklinks_panel li{
+	background: 			linear-gradient(to right, #52527A, #1F1F2E);
+	margin:					5px;
+	padding:				10px 10px 10px 10px;
+	display:				inline-block;
+	text-align:				center;
+	font-weight:			bold;
+	font-size:				85%;
+	border-radius:			3px;
+	color:					#FFFF9D;
+}
+
+#booklinks_panel li a:link{
+	color:					#FFFF9D;
+}
+
+#booklinks_panel li a:visited{
+	color:					#FFFF9D;
+}
+
+
+
+
+#button_panel li a:link{
+	color:					#606060;
+  	text-shadow: 			2px 2px 2px #FFBB00;
+  	text-decoration:		none;
+}
+
+
+#button_panel li a:visited{
+	color:					#606060;
+  	text-shadow: 			2px 2px 2px #FFBB00;
+  	text-decoration:		none;
+}
+
+#button_panel li a:hover{
+	color:					black;
+	font-size:				95%;
+	text-decoration:		none;
+  	text-shadow: 			none;
+	
+}
+
+
+#story{
+	background-color:		#eeeeee;
+	color:					#000000;
+	padding-left:			25px;
+	padding-right:			20px;
+	border-radius:			6px;
+	font-family:			Times New Roman, serif;
+  	font-size:       		110%;
+}
+
+
+p.storyheader{
+	text-align:				center;
+	margin-right: 			0.6cm;
+	margin-bottom: 			0cm;
+}
+
+
+#storycontent{
+	margin-right: 			0.6cm;
+	margin-bottom: 			0cm;
+}
+
+.insert_panel {
+	width:					200px;
+	padding:				20px;
+	margin:					5px;
+	float:					right;
+	font-family:			serif;
+	color:					#9966FF;
+	border-width:			none;
+	text-align:				center;
+
+}
+
+
+#centre_panel {
+	padding:				10px;
+	padding-left:			30px;
+	border-width:			thin;
+	border-color:			#222222;
+	text-align:				left;
+}
+
+#side_column_panel {
+	background-image:		url(images/skull.jpg);
+	background-repeat:		repeat-y;
+	padding:				10px;
+	float:					right;
+	width:					100px;
+	text-align:				center;
+	margin-right:			10px;
+}
+
+#footer {
+	background-image:		url(images/skull.jpg);
+	height:					100px;
+	text-align:				center;
+	font-size:				70%;
+	clear:					both;
+	border-width:			thin;
+	border-style:			solid;
+	border-color:			#333333;
+	border-radius:			6px;	
+	color:					#CDCDCD;
+	box-shadow: 			3px 3px 3px #888888;
+}
+
+a:link {
+	color:					#50896C;
+	text-decoration:		none;
+}
+
+a:visited {
+	color:					#50896C;
+	text-decoration:		none;
+}
+
+a:hover {
+	color:					#B80000;
+	text-decoration:		none;
+	font-size:				95%;
+}
+
+q {
+	font-style:				italic;
+	color:					#934AB8;
+}
+
+em {
+	font-family:			serif;
+	font-size:				120%;
+	color:					#9966FF;
+}
+
+.highlight_text {
+  	color:               	#ffcc00;
+}
+
+img {
+	border-radius:			4px;
+	box-shadow:				3px 3px 3px #888888;
+}
+
+
+h1 a:link {
+  	color:               	#040406;
+  	text-shadow: 			3px 3px 3px  #585858;
+	font-size:				100%;
+}
+
+h1 a:visited {
+  	color:               	#040406;
+  	text-shadow: 			3px 3px 3px  #585858;
+	font-size:				100%;
+}
+
+h1 a:hover {
+  	color:               	#040406;
+  	text-shadow: 			3px 3px 3px  #585858;
+	font-size:				100%;
+}
