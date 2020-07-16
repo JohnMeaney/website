@@ -3,12 +3,11 @@ body {
   	font-size:           	14pt;
   	font-family:         	century gothic, verdana, tahoma, arial, sans-serif;
   	background: 			linear-gradient(to right, #F8F8F8,  #D8D8D8);
-
 }
 
 h1 {
   	color:               	#040406;
-  	font-size:           	200%;
+	font-size:           	200%;
   	text-shadow: 			3px 3px 3px  #585858;
 }
 
@@ -27,13 +26,15 @@ h3 {
 
 #allcontent {
 	max-width:				1000px;
+	margin-top: 			15px;
 	margin-left:			auto;
 	margin-right:			auto;
 }
 
 #header {
 	background-image:		url(images/skyline02.jpg);
-	height:					240px;
+	max-width:				none;
+	height:					220px;
 	border-width:			thin;
 	border-style:			solid;
 	border-color:			#ffcc00;
@@ -44,31 +45,38 @@ h3 {
 
 #header h1 {
   	color:               	#FFDB4D;
-  	font-size:           	200%;
-  	text-shadow: 			5px 5px 5px #FF9900;
-
+  	font-size:           	300%;
 }
+
 
 #button_panel {
 	text-align:				center;
+	background-color: 	  black;
+	background-image: 		none;
+	font-size: 				150%;
+	margin-bottom: 			15px;
+	margin-top: 			5px;
 }
 
-#button_panel li{
-	color:					white;
-	background: 			linear-gradient(to bottom, #FFFF9D, #FFCC00);
-	margin:					10px;
-	border-radius:			6px;	
-	font-weight:			bold;
-	font-size:				85%;
-	text-decoration:		none;
-	text-align:				center;
-	padding-bottom:			5px;
-	padding-left:			25px;
-	padding-right:			25px;
+#button_panel li {
+	color:               	#FFDB4D;
 	list-style-type:		none;
 	display:				inline-block;
+	padding-left:			25px;
+	padding-right:			25px;
 }
 
+#button_panel li a {
+	color:               	#FFDB4D;
+}
+
+
+#button_panel li a:hover{
+	font-size:				95%;
+	text-decoration:		none;
+  	text-shadow: 			none;
+	background-color: 		#50896C;
+}
 
 
 #booklinks_panel li{
@@ -87,33 +95,7 @@ h3 {
 	color:					#FFFF9D;
 }
 
-#booklinks_panel li a:visited{
-	color:					#FFFF9D;
-}
 
-
-
-
-#button_panel li a:link{
-	color:					#606060;
-  	text-shadow: 			2px 2px 2px #FFBB00;
-  	text-decoration:		none;
-}
-
-
-#button_panel li a:visited{
-	color:					#606060;
-  	text-shadow: 			2px 2px 2px #FFBB00;
-  	text-decoration:		none;
-}
-
-#button_panel li a:hover{
-	color:					black;
-	font-size:				95%;
-	text-decoration:		none;
-  	text-shadow: 			none;
-	
-}
 
 
 #story{
@@ -153,6 +135,7 @@ p.storyheader{
 
 
 #centre_panel {
+	margin-top: 			10px;
 	padding:				10px;
 	padding-left:			30px;
 	border-width:			thin;
