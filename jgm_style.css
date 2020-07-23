@@ -161,7 +161,7 @@ h3 {
 	margin:					5px;
 	padding:				10px 10px 10px 10px;
 	display:				inline-block;
-	text-align:				center;
+	text-align:				center; 
 	font-weight:			bold;
 	font-size:				85%;
 	border-radius:			3px;
@@ -172,8 +172,19 @@ h3 {
 	color:					#FFFF9D;
 }
 
+#booklinks_panel li a:visited{
+	color:					#FFFF9D;
+}
+
+/* responsive: make the book links into a vertical, not horizontal menu */
 
 
+@media screen and (max-width: 700px) {
+	#booklinks_panel li{
+		display:				block;
+		text-align:				left;	
+	}
+}
 
 #story{
 	background-color:		#eeeeee;
