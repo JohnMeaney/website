@@ -48,17 +48,35 @@ h3 {
   	font-size:           	300%;
 }
 
+/* ====================================================================================== */
+/* =============================  NAVIGATION BAR ======================================== */
+/* ====================================================================================== */
 
-#button_panel {
+/* 	The navigation bar is a div element.
+	 Its id is: #button_panel
+	 Its class is either .navbar or .navbar.responsive (the class name changes dynamically) 
+
+	 The toggling happens because the JavaScript sets up a click event handler on the hamburger
+	 (which is identified by an id that doesn't change) which changes the class name back and 
+	 forth between the two values.
+
+	 On mobile displays, when the menu elements are visible, we want them laid out vertically.
+	 This means float:none and display:block so each <a> is on a different line.
+
+*/
+
+.navbar {
 	text-align:				center;
 	background-color: 	  black;
 	background-image: 		none;
 	font-size: 				150%;
 	margin-bottom: 			15px;
 	margin-top: 			5px;
+	padding-top: 			5px;
+	padding-bottom: 		5px;
 }
 
-#button_panel li {
+.navbar a {
 	color:               	#FFDB4D;
 	list-style-type:		none;
 	display:				inline-block;
@@ -66,18 +84,77 @@ h3 {
 	padding-right:			25px;
 }
 
-#button_panel li a {
+.navbar a:link {
 	color:               	#FFDB4D;
 }
 
+.navbar a:visited {
+	color:               	#FFDB4D;
+}
 
-#button_panel li a:hover{
+/*
+.navbar a:hover{
 	font-size:				95%;
 	text-decoration:		none;
   	text-shadow: 			none;
 	background-color: 		#50896C;
 }
+*/
 
+/* For non-mobile display, hide the hamburger icon */
+.navbar .hamburger-icon {
+    display: none;
+}
+
+/* CREATE THE HAMBURGER LINES */
+.navbar .hamburger-icon .hamburger-line {
+        width: 35px;
+        height: 5px;
+        background-color: #ffcc00;
+        margin: 6px 0;
+        transition: 0.4s;
+        color: white;
+    }
+
+
+
+/* When the screen is less than 700 pixels wide, hide all "normal" links, except for the first one ("Home"). 
+   Reveal the link that contains the hamburger icon */
+@media screen and (max-width: 700px) {
+    .navbar a:not(:first-child) {
+        display: none;
+    }
+
+    .navbar .hamburger-icon {
+        float: right;
+        display: inline-block;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .navbar.responsive {
+        position: relative;
+    }
+
+	.navbar.responsive div.hamburger-icon {
+            position: absolute;
+            right: 0;
+            top: 0;
+    }
+
+    .navbar.responsive a {
+           float: none;
+           display: block;
+           text-align: left;
+    }
+} 
+
+
+
+
+
+/* ====================================================================================== */
 
 #booklinks_panel li{
 	background: 			linear-gradient(to right, #52527A, #1F1F2E);
