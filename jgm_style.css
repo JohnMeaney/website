@@ -1,9 +1,23 @@
-body {
-	color: 					#404040;
-  	font-size:           	14pt;
-  	font-family:         	century gothic, verdana, tahoma, arial, sans-serif;
-  	background: 			linear-gradient(to right, #F8F8F8,  #D8D8D8);
+/* large monitor */
+@media screen and (min-width: 1001px) {
+	body {
+		color: 					#404040;
+		font-size:           	14pt;
+		font-family:         	century gothic, verdana, tahoma, arial, sans-serif;
+		background: 			linear-gradient(to right, #F8F8F8,  #D8D8D8);
+	}
 }
+
+/* mobile display */
+@media screen and (max-width: 1000px) {
+	body {
+		color: 					#404040;
+		font-size:           	18pt !important; 
+		font-family:         	century gothic, verdana, tahoma, arial, sans-serif;
+		background: 			linear-gradient(to right, #F8F8F8,  #D8D8D8);
+	}
+}
+
 
 h1 {
   	color:               	#040406;
@@ -243,6 +257,7 @@ p.storyheader{
 	img {
 		display: block;
 		margin-bottom: 10px;
+		width: auto;
 	}
 }
 
