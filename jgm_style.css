@@ -1,4 +1,10 @@
+
+body {
+	font-size: 2.5vmin;
+}
+
 /* large monitor */
+
 
 @media screen and (min-width: 1001px) {
 	body {
