@@ -1,6 +1,6 @@
 
-body {
-	font-size: 2.5vmin;
+html {
+	font-size: 16px;
 }
 
 /* large monitor */
@@ -9,7 +9,7 @@ body {
 @media screen and (min-width: 1001px) {
 	body {
 		color: 					#404040;
-/*		font-size:           	14pt; */
+	font-size:           	14pt; 
 		font-family:         	century gothic, verdana, tahoma, arial, sans-serif;
 		background: 			linear-gradient(to right, #F8F8F8,  #D8D8D8);
 	}
@@ -20,7 +20,7 @@ body {
 @media screen and (max-width: 1000px) {
 	body {
 		color: 					#404040;
-/*		font-size:           	18pt !important; */
+		font-size:           	18pt !important; 
 		font-family:         	century gothic, verdana, tahoma, arial, sans-serif;
 		background: 			linear-gradient(to right, #F8F8F8,  #D8D8D8);
 	}
