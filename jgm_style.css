@@ -139,9 +139,9 @@ h3 {
 
 
 
-/* When the screen is less than 600 pixels wide, hide all "normal" links, except for the first one ("Home"). 
+/* When the screen is less than 1000 pixels wide, hide all "normal" links, except for the first one ("Home"). 
    Reveal the link that contains the hamburger icon */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
     .navbar a:not(:first-child) {
         display: none;
     }
@@ -153,7 +153,7 @@ h3 {
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
     .navbar.responsive {
         position: relative;
     }
