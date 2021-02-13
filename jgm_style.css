@@ -135,10 +135,10 @@ h3 {
 
 /* CREATE THE HAMBURGER LINES */
 .navbar .hamburger-icon .hamburger-line {
-        width: 70px;
-        height: 5px;
+        width: 75px;
+        height: 8px;
         background-color: #ffcc00;
-        margin: 4px 0;
+        margin-top: 15px;
         transition: 0.4s;
         color: white;
     }
@@ -154,7 +154,8 @@ h3 {
 
     .navbar .hamburger-icon {
         display: block;
-		width: 70px;
+		width: 72px;
+		height: 72px;
 		margin-left: auto;
 		margin-right: auto;
     }
@@ -185,9 +186,9 @@ h3 {
     }
 	/* last <a> doesn't need a bottom border; the others do */
 	.navbar.responsive a:not(:last-child) {
-		border-bottom-width: 2px;
+		border-bottom-width: 5px;
 		border-bottom-style: groove;
-		border-bottom-color: #221b02;
+		border-bottom-color: #3d3003;
  }
 	.navbar.responsive a:last-child {
 		border-bottom-width: 0px;
