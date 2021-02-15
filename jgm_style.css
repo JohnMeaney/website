@@ -3,10 +3,10 @@ html {
 	font-size: 16px;
 }
 
-/* large monitor */
+/* tablet or monitor */
 
 
-@media screen and (min-width: 1001px) {
+@media screen and (min-width: 43em) {
 	body {
 		color: 					#404040;
 	font-size:           	14pt; 
@@ -17,7 +17,7 @@ html {
 
 /* mobile display */
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 43em) {
 	body {
 		color: 					#404040;
 		font-size:           	18pt !important; 
@@ -202,6 +202,10 @@ h3 {
 
 
 /* ====================================================================================== */
+
+.clear {
+	clear: right;
+}
 
 #booklinks_panel li{
 	background: 			linear-gradient(to right, #52527A, #1F1F2E);
