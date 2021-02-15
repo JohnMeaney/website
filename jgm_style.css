@@ -145,9 +145,9 @@ h3 {
 
 
 
-/* When the screen is less than 1000 pixels wide, hide all "normal" links, except for the first one ("Home"). 
+/* When the screen is less than 43em wide, hide all "normal" links, except for the first one ("Home"). 
    Reveal the link that contains the hamburger icon */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 43em) {
     .navbar a {
         display: none;
     }
@@ -162,7 +162,7 @@ h3 {
 }
 
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 43em) {
     .navbar.responsive {
         position: relative;
 		align-items: center;
@@ -230,7 +230,7 @@ h3 {
 /* responsive: make the book links into a vertical, not horizontal menu */
 
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 43em) {
 	#booklinks_panel li{
 		display:				block;
 		text-align:				left;	
@@ -261,7 +261,7 @@ p.storyheader{
 }
 
 /* large-display inserts */
-@media screen and (min-width: 1001px) {
+@media screen and (min-width: 43em) {
 	.insert_panel {
 		width:					200px;
 		padding:				20px;
@@ -276,7 +276,7 @@ p.storyheader{
 }
 
 /* mobile-display inserts */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 43em) {
 	.insert_panel {
 		width:					200px;
 		padding:				20px;
@@ -289,7 +289,7 @@ p.storyheader{
 }
 
 /* mobile-display images */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 43em) {
 	img {
 		display: block;
 		margin-bottom: 10px;
